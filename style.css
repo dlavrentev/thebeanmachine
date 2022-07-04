@@ -1,0 +1,285 @@
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.optional{
+  display: none;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.homebuttonlink {
+  color: #FF5678;
+  text-decoration: none;
+}
+
+.aboutselectionlink {
+  text-decoration: none;
+  color: black;
+}
+
+
+.loginlink {
+  color: white;
+  text-decoration: none;
+}
+
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.container-nav-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  
+}
+
+.item-login {
+  color: white;
+  background-color: #1D1C1C;
+  padding: 8px 32px;
+  border-radius: 16px;
+  margin-left: 96px;
+}
+
+.item-selection {
+  margin-left: 32px;
+}
+.container-main-search {
+  border-bottom: solid #1D1C1C 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 64px;
+  padding-top: 96px;
+}
+
+
+.thebeanmachine {
+  margin-bottom: 1px;
+}
+  
+
+
+.container-main-about {
+  border-bottom: solid #1D1C1C 2px;
+  margin-bottom: 64px;
+  padding-bottom: 64px;
+  padding-top: 16px;
+}
+
+.ramblalink {
+  color: #FF5678;
+}
+
+.container-main-special {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 128px;
+}
+
+
+.bean {
+  background-color: #F6F2EF;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:10px;
+}
+
+.bean-img {
+  width: 150px;
+  height: 200px;
+}
+
+.search-img {
+  background-color: #FF5678;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  padding: 8px;
+  margin-left: 16px;
+}
+
+.search-bar {
+  color: #917D6E;
+  background-color: #F6F2EF;
+  width: 230px;
+  border-radius: 8px;
+  padding-left: 16px;
+  border: none;
+}
+
+.search-element {
+  display: flex;
+  margin-top: 64px;
+}
+
+.buy {
+  background-color: #FF5678;
+  color: white;
+  padding: 8px 48px;
+  border-radius: 8px;
+  text-decoration: none;
+  
+}
+
+.bean-topic {
+  color: #917D6E;
+}
+
+.container-footer {
+  background-color: #1D1C1C;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 32px;
+}
+
+.footer-p {
+  margin-bottom: 16px;
+}
+
+.footer-i {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  margin: 0px 8px;
+  font-size: 24px;
+}
+
+.a-icon {
+  text-decoration: none;
+  color: white;
+}
+
+
+.container-main-selection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+
+.container-selection-right {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.container-selection-sort {
+  margin-right: 32px;
+}
+
+.container-selection-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.selection-card {
+  background-color: #F6F2EF;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-top: 64px;
+  margin-bottom: 80px;
+  height: auto;
+  margin-right: 84px;
+}
+
+.item-card-2, .item-card-5, .item-card-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.item-card-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-card-1-style {
+  background-color: #149770;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.item-card-2-style {
+  height: 150px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.item-card-5-style {
+  background-color: #FF5678;
+  color: white;
+  padding: 8px 48px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.item-card-1 {
+  position: relative;
+  left: 150px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.item-card-5 {
+  margin-bottom: 25px;
+}
+
+.item-card-4, .item-card-3 {
+  margin-left: 20px;
+  margin-right: 20px;
+  min-width: 300px;
+}
+
+.item-card-4 {
+  position: relative;
+  bottom: 20px;
+}
+
+  
+#price-sort {
+  width: 100px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  background-color: rgb(221, 221, 221);
+  }
+
+
+
